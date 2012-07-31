@@ -93,6 +93,10 @@
 		
 		//		NSLog(@"%@",NSStringFromCGRect(self.frame));
 	}
+	
+	dispatch_async(queue, ^{
+		
+	});
 	open = !open;
 	
 	[UIView animateWithDuration:0.5
