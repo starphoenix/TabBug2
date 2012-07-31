@@ -94,8 +94,8 @@
 		//		NSLog(@"%@",NSStringFromCGRect(self.frame));
 	}
 	
-	dispatch_async(queue, ^{
-		
+	dispatch_async(dispatch_get_main_queue(), ^{
+		[self.tabButton setNeedsDisplay];
 	});
 	open = !open;
 	
