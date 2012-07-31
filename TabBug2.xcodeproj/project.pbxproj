@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0038609F15C82C1E009BAD35 /* tab_stretchable.png in Resources */ = {isa = PBXBuildFile; fileRef = 0038609E15C82C1E009BAD35 /* tab_stretchable.png */; };
 		00D91D6B15C82B0B007550CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00D91D6A15C82B0B007550CF /* UIKit.framework */; };
 		00D91D6D15C82B0B007550CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00D91D6C15C82B0B007550CF /* Foundation.framework */; };
 		00D91D6F15C82B0B007550CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00D91D6E15C82B0B007550CF /* CoreGraphics.framework */; };
@@ -18,18 +19,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0038609E15C82C1E009BAD35 /* tab_stretchable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tab_stretchable.png; path = ../../SCSPrototype/tab_stretchable.png; sourceTree = "<group>"; };
 		00D91D6615C82B0B007550CF /* TabBug2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBug2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00D91D6A15C82B0B007550CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		00D91D6C15C82B0B007550CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		00D91D6E15C82B0B007550CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		00D91D7215C82B0B007550CF /* TabBug2-Info.plist */ = {isa = PBXFileReference; path = "TabBug2-Info.plist"; sourceTree = "<group>"; };
+		00D91D7215C82B0B007550CF /* TabBug2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TabBug2-Info.plist"; sourceTree = "<group>"; };
 		00D91D7415C82B0B007550CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00D91D7615C82B0B007550CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		00D91D7815C82B0B007550CF /* TabBug2-Prefix.pch */ = {isa = PBXFileReference; path = "TabBug2-Prefix.pch"; sourceTree = "<group>"; };
-		00D91D7915C82B0B007550CF /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		00D91D7815C82B0B007550CF /* TabBug2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TabBug2-Prefix.pch"; sourceTree = "<group>"; };
+		00D91D7915C82B0B007550CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		00D91D7A15C82B0B007550CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		00D91D7D15C82B0B007550CF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		00D91D7F15C82B0B007550CF /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		00D91D7F15C82B0B007550CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		00D91D8015C82B0B007550CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +79,7 @@
 		00D91D7015C82B0B007550CF /* TabBug2 */ = {
 			isa = PBXGroup;
 			children = (
+				0038609E15C82C1E009BAD35 /* tab_stretchable.png */,
 				00D91D7915C82B0B007550CF /* AppDelegate.h */,
 				00D91D7A15C82B0B007550CF /* AppDelegate.m */,
 				00D91D7C15C82B0B007550CF /* MainStoryboard.storyboard */,
@@ -151,6 +154,7 @@
 			files = (
 				00D91D7515C82B0B007550CF /* InfoPlist.strings in Resources */,
 				00D91D7E15C82B0B007550CF /* MainStoryboard.storyboard in Resources */,
+				0038609F15C82C1E009BAD35 /* tab_stretchable.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +281,7 @@
 				00D91D8615C82B0B007550CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
